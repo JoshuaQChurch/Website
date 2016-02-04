@@ -1,0 +1,82 @@
+/*!
+ * Bootstrap v3.3.6 (http://getbootstrap.com)
+ * Copyright 2011-2015 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ */
+
+@import "variables";
+@import "bootstrap";
+
+header {
+  margin-bottom: 15px;
+  text-align: center;
+  background: $brand-primary;
+}
+
+h1 {
+  color: $gray-lighter;
+}
+
+.container-fluid {
+  max-width: 850px;
+}
+
+.about {
+  position: relative;
+
+  .headshot-photo {
+    margin-right: 15px;
+    margin-bottom: 10px;
+  }
+  .social-media-wrap {
+    text-align: center;
+  }
+  .social-media-links {
+    max-width: 300px;
+    display: inline-block;
+  }
+  .sm-box {
+    width: 16.65%;
+    display: inline-block;
+    float: left;
+  }
+  @media (min-width: 768px) {
+    p {
+      padding-right: 65px;
+    }
+    .social-media-links {
+      width: 50px;
+      position: absolute;
+      top: 0;
+      right: 0;
+    }
+    .sm-box {
+      width: 100%;
+      float: none;
+    }
+  }
+}
+
+
+.testimonials {
+  margin: 25px 0;
+  .testimonial {
+    padding: 5px;
+    border-radius: 5px;
+    background: #ccc;
+    margin-bottom: 5px;
+  }
+}
+
+.services {
+  img {
+    margin-right: 10px;
+    margin-bottom: 1px;
+  }
+}
+
+footer {
+  padding: 15px;
+  text-align: center;
+  background: #cccccc;
+}
